@@ -16,6 +16,8 @@ buildscript {
         version_navigation = "1.0.0"
         version_room = "2.0.0"
         version_coroutine = "1.1.0"
+        version_appcompat = "1.0.2"
+        version_fragment = "1.0.0"
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.3.0'
