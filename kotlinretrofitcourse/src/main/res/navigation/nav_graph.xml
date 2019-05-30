@@ -38,6 +38,11 @@
         android:name="com.example.kotlinretrofitcourse.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail">
+        <argument
+        android:name="selectedProperty"
+        app:argType="com.example.kotlinretrofitcourse.network.MarsProperty">
+
+        </argument>
     </fragment>
 
 </navigation>
